@@ -1,0 +1,6 @@
+#!/usr/bin/eng python
+
+import rospy
+from std_msgs.msg import Int32
+
+rospy.init_node

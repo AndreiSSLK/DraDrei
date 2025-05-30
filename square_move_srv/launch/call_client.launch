@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="square_move_srv" type="square_move_client.py" name="square_move_client" output="screen" />
+</launch>
+

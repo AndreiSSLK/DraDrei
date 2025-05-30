@@ -28,6 +28,6 @@ def handle_square_move(req):
 if __name__ == "__main__":
     rospy.init_node('square_move_server')
     s = rospy.Service('move_square', SquareMove, handle_square_move)
-    rospy.loginfo("Service ready.")
+    rospy.loginfo("ready.")
     rospy.spin()
 

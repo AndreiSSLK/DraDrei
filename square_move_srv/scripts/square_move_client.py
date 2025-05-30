@@ -11,5 +11,5 @@ try:
     res = move_square(req)
     rospy.loginfo("success", res.success)
 except rospy.ServiceException as e:
-    rospy.logerr("call failed: %s", e)
+    rospy.logerr("failed", e)
 
